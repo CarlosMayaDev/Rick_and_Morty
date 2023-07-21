@@ -1,0 +1,59 @@
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+.div {
+    /* Otros estilos para el div contenedor */
+    width: 10%;
+    height: 40px;
+    position: absolute; /* o relative */
+    top: 107px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-self: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    /* Estilos para el input */
+    flex: 1;
+    margin-right: 10px; /* Agregamos un margen a la derecha para separar el input del botón */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    color: #550a0a;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #ed4646;
+    box-shadow: 0 0 0 2px #d46d6d;
+  }
+  
+  .button {
+    /* Estilos para el botón */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #007bff;
+  }
+  
